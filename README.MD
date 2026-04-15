@@ -1,5 +1,5 @@
 
-	//TODO 1:Setup
+### TODO 1:Setup
 
 
 
@@ -24,10 +24,11 @@ machine.InitADC()
 
 ```
 
+converts the percentage to voltage reading
 
-	// (given/65535) * 100 * 3.3v
+	(given/65535) * 100 * 3.3v
 
-	###TODO 2: Grab the potentiometer value inside a for loop
+### TODO 2: Grab the potentiometer value inside a for loop
 
 
 ```go
@@ -44,7 +45,7 @@ for {
 
 ```
 
-    ###TODO 3: below the value variable turn the led on and off if your value has reached your threshold
+### TODO 3: below the value variable turn the led on and off if your value has reached your threshold
 
 ```go
 
